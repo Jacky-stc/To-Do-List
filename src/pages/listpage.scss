@@ -1,0 +1,24 @@
+.type-area,
+.back-btn,
+.additem-btn {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+}
+.listpage-main {
+  padding: 20px;
+}
+.todo-item {
+  border-left: 2px solid #444;
+  padding: 5px 20px;
+}
+button {
+  padding: 8px;
+}
